@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBA Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="menuscript.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li class="logo"><a href="index.html">Food Place Logo</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="features">
+        <table>
+            <caption><strong>Menu of Food</strong></caption>
+            <tr>
+              <th>Food Pic</th>
+              <th>Food Name</th>
+              <th>Food Details</th>
+              <th>Food Price</th>
+              <th>Order Food</th>
+            </tr>
+            <tr>
+              <td><img src="images/burger.jpg" alt="Juicy Burger"></td>
+              <td>Burger</td>
+              <td>It has cheese</td>
+              <td>$5.99</td>
+              <td><form>
+                <!--<select id="burgers">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>-->
+                <button type="button" onclick="addToOrder('burger')">Add 1 to order</button>
+                <button type="button" onclick="removeFromOrder('burger')">Remove 1 from order</button>
+                </form></td>
+            </tr>
+            <tr>
+              <td><img src="images/pancakes.jpg" alt="Fresh Pancakes"></td>
+              <td>Pancakes</td>
+              <td>Cake but in a pan</td>
+              <td>$8.99</td>
+              <td><form>
+                <!--<select id="pancakes">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>-->
+                <button type="button" onclick="addToOrder('pancake')">Add 1 to order</button>
+                <button type="button" onclick="removeFromOrder('pancake')">Remove 1 from order</button>
+                </form></td>
+            </tr>
+            <tr>
+                <td><img src="images/salad.jpg" alt="Savory Salad"></td>
+                <td>Salad</td>
+                <td>Grass but better</td>
+                <td>$6.99</td>
+                <td><form>
+                    <!--<select id="salads">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>-->
+                    <button type="button" onclick="addToOrder('salad')">Add 1 to order</button>
+                    <button type="button" onclick="removeFromOrder('salad')">Remove 1 from order</button>
+                    </form></td>
+              </tr>
+          </table>
+    </section>
+    <section class="features">
+        <ul>
+            <li>Current Order:</li>
+            <li id="burg"></li>
+            <li id="pan"></li>
+            <li id="sal"></li>
+            <li id ="price"></li>
+            <li><button type="button" onclick="placeOrder()">Place Order</button></li>
+        </ul>
+    </section>
+    <footer>321 Last Street Small Town, USA • 999-999-9999 • foodplace@mysite.com</footer>
+
+
+</body>
+</html>

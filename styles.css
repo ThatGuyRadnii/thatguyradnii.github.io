@@ -1,0 +1,139 @@
+body {
+    background: rgb(58, 58, 58);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* HEADER */
+  
+  header {
+    background-color: black;
+    background-image: url("images/header.jpg");
+    background-size: 100%;
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+  }
+  
+  header .logo a {
+    background-image: url("images/logo.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 200px;
+    position: relative;
+    text-indent: -9999999px;
+    top: -50px;
+    width: 200px;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  /* INTERACTABLES */
+  select {
+    background-color: #a5a5a5;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+
+  select:hover {
+    background-color: #8d8d8d;
+  }
+
+  select::-ms-expand {
+    display: none;
+}
+
+button {
+  background-color: #a5a5a5;
+    color: rgb(255, 255, 255);
+    padding: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+button:hover {
+  background-color: #8d8d8d;
+}
+  
+  /* FEATURES */
+  
+  .features {
+    background: white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .features figure {
+    margin: auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 200px;
+  }
+  
+  .features figure img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+  }
+
+  .features table {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    border-spacing: 30px;
+  }
+
+  .features table img {
+    border: 1px solid white;
+    box-shadow: gray 0 0 10px;
+    width: 200px;
+  }
+
+  .features ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  /* FOOTER */
+  
+  footer {
+    background: black;
+    color: gray;
+    font-size: 12px;
+    padding: 20px 20px;
+    text-align: center;
+  }
