@@ -82,6 +82,24 @@ button {
 button:hover {
   background-color: #8d8d8d;
 }
+form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#fname, #lname, #email, #message {
+  width: 300px;
+}
+
+#message {
+  height:150px;
+}
+
+#orderme {
+  margin-left: auto;
+    margin-right: auto;
+}
   
   /* FEATURES */
   
